@@ -1,0 +1,134 @@
+# Created by Ultra Librarian Gold 8.3.301 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'PDIP8_300MC_MCH.pac';
+Grid Mil;
+Change Drill 39;
+Pad '1' Square 0 59 R0 (0 0);
+Change Drill 39;
+Pad '2' Round 0 59 R0 (0 -100);
+Change Drill 39;
+Pad '3' Round 0 59 R0 (0 -200);
+Change Drill 39;
+Pad '4' Round 0 59 R0 (0 -300);
+Change Drill 39;
+Pad '5' Round 0 59 R0 (300 -300);
+Change Drill 39;
+Pad '6' Round 0 59 R0 (300 -200);
+Change Drill 39;
+Pad '7' Round 0 59 R0 (300 -100);
+Change Drill 39;
+Pad '8' Round 0 59 R0 (300 0);
+Layer 21;
+Wire 6 (5 -355) (295 -355);
+Wire 6 (295 -355) (295 -342);
+Wire 6 (295 55) (5 55);
+Wire 6 (5 55) (5 43);
+Wire 6 (5 -43) (5 -58);
+Wire 6 (5 -142) (5 -158);
+Wire 6 (5 -242) (5 -258);
+Wire 6 (5 -342) (5 -355);
+Wire 6 (295 -258) (295 -242);
+Wire 6 (295 -158) (295 -142);
+Wire 6 (295 -58) (295 -42);
+Wire 6 (295 42) (295 55);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-23 34);
+Layer 51;
+Wire 6 (10 -20) (10 20);
+Wire 6 (10 20) (-20 19);
+Wire 6 (-20 19) (-19 -20);
+Wire 6 (-19 -20) (10 -20);
+Wire 6 (10 -120) (10 -80);
+Wire 6 (10 -80) (-20 -81);
+Wire 6 (-20 -81) (-19 -120);
+Wire 6 (-19 -120) (10 -120);
+Wire 6 (10 -220) (10 -180);
+Wire 6 (10 -180) (-20 -180);
+Wire 6 (-20 -180) (-19 -220);
+Wire 6 (-19 -220) (10 -220);
+Wire 6 (10 -320) (10 -280);
+Wire 6 (10 -280) (-19 -280);
+Wire 6 (-19 -280) (-19 -320);
+Wire 6 (-19 -320) (10 -320);
+Wire 6 (290 -280) (290 -320);
+Wire 6 (290 -320) (320 -320);
+Wire 6 (320 -320) (320 -280);
+Wire 6 (320 -280) (290 -280);
+Wire 6 (290 -180) (290 -220);
+Wire 6 (290 -220) (320 -220);
+Wire 6 (320 -220) (320 -180);
+Wire 6 (320 -180) (290 -180);
+Wire 6 (290 -80) (290 -120);
+Wire 6 (290 -120) (320 -120);
+Wire 6 (320 -120) (320 -80);
+Wire 6 (320 -80) (290 -80);
+Wire 6 (290 20) (290 -20);
+Wire 6 (290 -20) (320 -19);
+Wire 6 (320 -19) (320 20);
+Wire 6 (320 20) (290 20);
+Wire 6 (10 -350) (290 -350);
+Wire 6 (290 -350) (290 50);
+Wire 6 (290 50) (10 50);
+Wire 6 (10 50) (10 -350);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-3 -25);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (21 -175);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (82 -175);
+
+Edit 'TC4420XPAX.sym';
+Grid Mil;
+Layer 94;
+Pin 'VDD_2' Pas None Middle R0 Both 0 (100 0)
+Pin 'INPUT' Pas None Middle R0 Both 0 (100 -100)
+Pin 'NC' Pas None Middle R0 Both 0 (100 -200)
+Pin 'GND_2' Pas None Middle R0 Both 0 (100 -300)
+Pin 'GND' Pas None Middle R180 Both 0 (1900 -300)
+Pin 'OUTPUT_2' Pas None Middle R180 Both 0 (1900 -200)
+Pin 'OUTPUT' Pas None Middle R180 Both 0 (1900 -100)
+Pin 'VDD' Pas None Middle R180 Both 0 (1900 0)
+Wire 6 (300 200) (300 -500);
+Wire 6 (300 -500) (1700 -500);
+Wire 6 (1700 -500) (1700 200);
+Wire 6 (1700 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (814 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (789 259);
+
+Edit 'TC4420EPA.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add TC4420XPAX 'A' Next  0 (0 0);
+Package 'PDIP8_300MC_MCH';
+Technology '';
+Attribute Copyright 'Copyright (C) 2021 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name 'Microchip';
+Attribute Manufacturer_Part_Number 'TC4420EPA';
+Attribute Digi-Key_Part_Number_1 'TC4420EPA-ND';
+Connect 'A.VDD_2' '1';
+Connect 'A.INPUT' '2';
+Connect 'A.NC' '3';
+Connect 'A.GND_2' '4';
+Connect 'A.GND' '5';
+Connect 'A.OUTPUT_2' '6';
+Connect 'A.OUTPUT' '7';
+Connect 'A.VDD' '8';

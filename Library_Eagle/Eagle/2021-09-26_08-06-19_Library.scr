@@ -1,0 +1,66 @@
+# Created by Ultra Librarian Gold 8.3.301 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'ABL-8.000MHZ-B2_ABR.pac';
+Grid Mil;
+Change Drill 28;
+Pad '1' Round 0 48 R0 (0 0);
+Change Drill 28;
+Pad '2' Round 0 48 R180 (192 0);
+Layer 51;
+Wire 6 (322 98) (-130 98);
+Wire 6 (322 -98) (-130 -98);
+Wire 6 (322 98) (322 -98);
+Wire 6 (-130 98) (-130 -98);
+Wire 0 (-110 0) -180 (-110 0);
+Wire 0 (-110 0) -180 (-110 0);
+Layer 21;
+Wire 6 (327 103) (-135 103);
+Wire 6 (327 -103) (-135 -103);
+Wire 6 (327 103) (327 -103);
+Wire 6 (-135 103) (-135 -103);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-33 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (28 -25);
+
+Edit 'ABL-8.000MHZ-B2.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Both 0 (100 0)
+Pin '2' Pas None Middle R180 Both 0 (1500 0)
+Wire 6 (300 200) (300 -200);
+Wire 6 (300 -200) (1300 -200);
+Wire 6 (1300 -200) (1300 200);
+Wire 6 (1300 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (614 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (589 259);
+
+Edit 'ABL-8.000MHZ-B2.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add ABL-8.000MHZ-B2 'A' Next  0 (0 0);
+Package 'ABL-8.000MHZ-B2_ABR';
+Technology '';
+Attribute Copyright 'Copyright (C) 2021 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name 'Abracon';
+Attribute Manufacturer_Part_Number 'ABL-8.000MHZ-B2';
+Attribute Digi-Key_Part_Number_1 '535-9062-ND';
+Connect 'A.1' '1';
+Connect 'A.2' '2';

@@ -1,0 +1,76 @@
+# Created by Ultra Librarian Gold 8.3.301 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'TO-247-3LD_20P82X15P87_ONS.pac';
+Grid Mil;
+Change Drill 73;
+Pad '1' Round 0 93 R0 (0 0);
+Change Drill 73;
+Pad '2' Round 0 93 R0 (215 0);
+Change Drill 73;
+Pad '3' Round 0 93 R0 (429 0);
+Layer 21;
+Wire 6 (-100 104) (530 104);
+Wire 6 (-105 -104) (535 -104);
+Wire 6 (535 -104) (535 104);
+Wire 6 (535 104) (-105 104);
+Wire 6 (-105 104) (-105 -104);
+Wire 6 (-170 0) -180 (-180 0);
+Wire 6 (-180 0) -180 (-170 0);
+Layer 51;
+Wire 6 (-100 98) (530 98);
+Wire 6 (-100 -98) (530 -98);
+Wire 6 (530 -98) (530 98);
+Wire 6 (530 98) (-100 98);
+Wire 6 (-100 98) (-100 -98);
+Wire 0 (-85 0) -180 (-95 0);
+Wire 0 (-95 0) -180 (-85 0);
+Change Size 25;
+Change Ratio 4;
+Text 'TAB' SR0 (181 86);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (86 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (147 -25);
+
+Edit 'FGH40N60SFDTU.sym';
+Grid Mil;
+Layer 94;
+Pin 'G' Pas None Middle R0 Both 0 (100 0)
+Pin 'C' Pas None Middle R180 Both 0 (1500 -100)
+Pin 'E' Pas None Middle R180 Both 0 (1500 0)
+Wire 6 (300 200) (300 -300);
+Wire 6 (300 -300) (1300 -300);
+Wire 6 (1300 -300) (1300 200);
+Wire 6 (1300 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (614 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (589 259);
+
+Edit 'FGH40N60SFDTU.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add FGH40N60SFDTU 'A' Next  0 (0 0);
+Package 'TO-247-3LD_20P82X15P87_ONS';
+Technology '';
+Attribute Copyright 'Copyright (C) 2021 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name 'ON Semiconductor';
+Attribute Manufacturer_Part_Number 'FGH40N60SFDTU';
+Connect 'A.G' '1';
+Connect 'A.C' '2';
+Connect 'A.E' '3';

@@ -1,0 +1,148 @@
+# Created by Ultra Librarian Gold 8.3.302 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "STA_RNCS1206_STP")
+Pad (Name "1") (Location -57, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 30, 69) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 57, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 30, 69) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -82, -44.5) (End -82, 44.5) (Layer Mechanical15) 
+Line (Width 6) (Start -82, 44.5) (End 82, 44.5) (Layer Mechanical15) 
+Line (Width 6) (Start 82, 44.5) (End 82, -44.5) (Layer Mechanical15) 
+Line (Width 6) (Start 82, -44.5) (End -82, -44.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-82, -44.5)
+Point (-82, 44.5)
+Point (82, 44.5)
+Point (82, -44.5)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (-87, -49.5)
+Point (-87, 49.5)
+Point (87, 49.5)
+Point (87, -49.5)
+EndPolygon
+Line (Width 6) (Start -29.89173794, -39.5) (End 29.89173794, -39.5) (Layer TopOverlay) 
+Line (Width 6) (Start 29.89173794, 39.5) (End -29.89173794, 39.5) (Layer TopOverlay) 
+Line (Width 1) (Start -42, -34.5) (End -42, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -42, 34.5) (End -64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, 34.5) (End -64, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, -34.5) (End -42, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 42, 34.5) (End 42, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 42, -34.5) (End 64, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, -34.5) (End 64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, 34.5) (End 42, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, -34.5) (End 64, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, -34.5) (End 64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, 34.5) (End -64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, 34.5) (End -64, -34.5) (Layer Mechanical13) 
+Step (Name STA_RNCS1206_STP.step)
+EndFootprint
+
+Footprint (Name "STA_RNCS1206_STP-M")
+Pad (Name "1") (Location -59, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 34, 71) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 59, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 34, 71) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -96, -55.5) (End -96, 55.5) (Layer Mechanical15) 
+Line (Width 6) (Start -96, 55.5) (End 96, 55.5) (Layer Mechanical15) 
+Line (Width 6) (Start 96, 55.5) (End 96, -55.5) (Layer Mechanical15) 
+Line (Width 6) (Start 96, -55.5) (End -96, -55.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-96, -55.5)
+Point (-96, 55.5)
+Point (96, 55.5)
+Point (96, -55.5)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (-91, -50.5)
+Point (-91, 50.5)
+Point (91, 50.5)
+Point (91, -50.5)
+EndPolygon
+Line (Width 6) (Start -29.52562587, -39.5) (End 29.52562587, -39.5) (Layer TopOverlay) 
+Line (Width 6) (Start 29.52562587, 39.5) (End -29.52562587, 39.5) (Layer TopOverlay) 
+Line (Width 1) (Start -42, -34.5) (End -42, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -42, 34.5) (End -64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, 34.5) (End -64, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, -34.5) (End -42, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 42, 34.5) (End 42, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 42, -34.5) (End 64, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, -34.5) (End 64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, 34.5) (End 42, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, -34.5) (End 64, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, -34.5) (End 64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, 34.5) (End -64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, 34.5) (End -64, -34.5) (Layer Mechanical13) 
+Step (Name STA_RNCS1206_STP.step)
+EndFootprint
+
+Footprint (Name "STA_RNCS1206_STP-L")
+Pad (Name "1") (Location -55, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 26, 67) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 55, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 26, 67) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -72, -37.5) (End -72, 37.5) (Layer Mechanical15) 
+Line (Width 6) (Start -72, 37.5) (End 72, 37.5) (Layer Mechanical15) 
+Line (Width 6) (Start 72, 37.5) (End 72, -37.5) (Layer Mechanical15) 
+Line (Width 6) (Start 72, -37.5) (End -72, -37.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-72, -37.5)
+Point (-72, 37.5)
+Point (72, 37.5)
+Point (72, -37.5)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (-83, -48.5)
+Point (-83, 48.5)
+Point (83, 48.5)
+Point (83, -48.5)
+EndPolygon
+Line (Width 6) (Start -30.3548289, -39.5) (End 30.3548289, -39.5) (Layer TopOverlay) 
+Line (Width 6) (Start 30.3548289, 39.5) (End -30.3548289, 39.5) (Layer TopOverlay) 
+Line (Width 1) (Start -42, -34.5) (End -42, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -42, 34.5) (End -64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, 34.5) (End -64, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, -34.5) (End -42, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 42, 34.5) (End 42, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 42, -34.5) (End 64, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, -34.5) (End 64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, 34.5) (End 42, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, -34.5) (End 64, -34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, -34.5) (End 64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start 64, 34.5) (End -64, 34.5) (Layer Mechanical13) 
+Line (Width 1) (Start -64, 34.5) (End -64, -34.5) (Layer Mechanical13) 
+Step (Name STA_RNCS1206_STP.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "RNCS1206BKE100K") (PartCount 1) (DesPrefix "R?")
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Visible "1") (PinSwap 1) (PartSwap 1) (PinSeq 1) (Part 1)
+Pin (Location 400, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 1) (PartSwap 1) (PinSeq 2) (Part 1)
+Line (Width 8) (Start 125, 50) (End 175, -50) (Part 1)
+Line (Width 8) (Start 175, -50) (End 225, 50) (Part 1)
+Line (Width 8) (Start 225, 50) (End 275, -50) (Part 1)
+Line (Width 8) (Start 275, -50) (End 325, 50) (Part 1)
+Line (Width 8) (Start 325, 50) (End 375, -50) (Part 1)
+Line (Width 8) (Start 100, 0) (End 125, 50) (Part 1)
+Line (Width 8) (Start 375, -50) (End 400, 0) (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2022 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Stackpole International") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "RNCS1206BKE100K") (Part 1)
+Parameter (Name "RefDes") (Location 225, 150) (Height 137) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 250, -275) (Height 137) (Rotation 0) (Justification Center) (Value "DEV") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Comment (Value "RNCS1206BKE100K") (Part 1)
+Footprint (Name "STA_RNCS1206_STP")
+EndComponent
+EndComponents

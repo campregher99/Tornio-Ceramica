@@ -1,0 +1,90 @@
+# Created by Ultra Librarian Gold 8.3.301 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'PG-HSIP247-3-1_INF.pac';
+Grid Mil;
+Change Drill 57;
+Pad '1' Square 0 77 R0 (0 0);
+Change Drill 57;
+Pad '2' Round 0 77 R0 (214 0);
+Change Drill 57;
+Pad '3' Round 0 77 R0 (428 0);
+Layer 21;
+Wire 6 (-102 -93) (-102 121);
+Wire 6 (-102 121) (530 121);
+Wire 6 (530 121) (530 -93);
+Wire 6 (530 -93) (-102 -93);
+Wire 6 (-164 0) -180 (-180 0);
+Wire 6 (-180 0) -180 (-164 0);
+Layer 51;
+Wire 6 (-97 -88) (-97 116);
+Wire 6 (-97 116) (525 116);
+Wire 6 (525 116) (525 -37);
+Wire 6 (525 -37) (474 -88);
+Wire 6 (474 -88) (-97 -88);
+Wire 0 (-74 0) -180 (-90 0);
+Wire 0 (-90 0) -180 (-74 0);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (85 -11);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (146 -11);
+
+Edit 'TRANS_IGBT_DIODE_1G_2C_3E.sym';
+Grid Mil;
+Layer 94;
+Pin 'C' Pas None Short R270 Off 0 (300 200)
+Pin 'B' Pas None Short R0 Off 0 (0 0)
+Pin 'E' Pas None Short R90 Off 0 (300 -200)
+Wire 8 (170 -90) (170 90);
+Wire 8 (170 40) (300 80);
+Wire 8 (170 -40) (300 -80);
+Wire 8 (300 -100) (300 100);
+Wire 8 (280 20) (320 20);
+Wire 8 (100 0) (150 0);
+Wire 8 (150 -90) (150 90);
+Wire 8 (300 20) (280 -20);
+Wire 8 (280 -20) (320 -20);
+Wire 8 (320 -20) (300 20);
+Wire 10 (362 0) -180 (62 0);
+Wire 10 (62 0) -180 (362 0);
+Wire 10 (300 72) -180 (300 88);
+Wire 10 (300 88) -180 (300 72);
+Wire 10 (300 -88) -180 (300 -72);
+Wire 10 (300 -72) -180 (300 -88);
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (240 -40) (230 -70) (270 -70) (240 -40);
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (300 20) (280 -20) (320 -20) (300 20);
+Layer 97;
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (400 -150);
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (400 50);
+
+Edit 'IKFW40N60DH3EXKSA1.dev';
+Prefix 'Q';
+Description '';
+Value Off;
+Add TRANS_IGBT_DIODE_1G_2C_3E 'A' Next  0 (0 0);
+Package 'PG-HSIP247-3-1_INF';
+Technology '';
+Attribute Copyright 'Copyright (C) 2021 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name 'Infineon';
+Attribute Manufacturer_Part_Number 'IKFW40N60DH3EXKSA1';
+Connect 'A.E' '1';
+Connect 'A.B' '2';
+Connect 'A.C' '3';

@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"UNI 6604, A a 6 x b 6 x l 14";"";
+"TraceParts.PartStandardAcronym";"UNI";"";
+"TraceParts.PartStatus";"Published";"";
+"DESIGN";"Linguetta, forma A 6 x 6 x 14 mm - UNI 6604";"";
+"TraceParts.PartNumber";"10-17122001-070376";"";
+"TraceParts.PartLanguage";"it";"";
+"STANDARD";"UNI 6604";"";
+"TraceParts.InstanceId";"10-17122001-07037621VT5HVEDDUFCD7P1L50BULV5";"";
+"TraceParts.PartTitle";"Linguette - forma A";"";
+"TraceParts.PartVersion";"1.2.9";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.ClassPath";"UNI:10-17122001-070376";"";

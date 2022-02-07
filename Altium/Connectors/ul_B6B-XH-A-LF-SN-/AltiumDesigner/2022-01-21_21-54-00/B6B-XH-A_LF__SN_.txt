@@ -1,0 +1,106 @@
+# Created by Ultra Librarian Gold 8.3.307 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "CONN_B6B-XH-A(LF)(SN)_JST")
+Pad (Name "1") (Location -0.00000457, 0) (HoleSize 39) (Surface False) (Rotation 0) (ExpandMask 0)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Top)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Bottom)
+PadShape (Size 59, 59) (Shape Rounded) (Layer MidLayer)
+EndPad
+Pad (Name "2") (Location 98.42519543, 0) (HoleSize 39) (Surface False) (Rotation 0) (ExpandMask 0)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Top)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Bottom)
+PadShape (Size 59, 59) (Shape Rounded) (Layer MidLayer)
+EndPad
+Pad (Name "3") (Location 196.85039543, 0) (HoleSize 39) (Surface False) (Rotation 0) (ExpandMask 0)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Top)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Bottom)
+PadShape (Size 59, 59) (Shape Rounded) (Layer MidLayer)
+EndPad
+Pad (Name "4") (Location 295.27559543, 0) (HoleSize 39) (Surface False) (Rotation 0) (ExpandMask 0)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Top)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Bottom)
+PadShape (Size 59, 59) (Shape Rounded) (Layer MidLayer)
+EndPad
+Pad (Name "5") (Location 393.70079543, 0) (HoleSize 39) (Surface False) (Rotation 0) (ExpandMask 0)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Top)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Bottom)
+PadShape (Size 59, 59) (Shape Rounded) (Layer MidLayer)
+EndPad
+Pad (Name "6") (Location 492.12589543, 0) (HoleSize 39) (Surface False) (Rotation 0) (ExpandMask 0)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Top)
+PadShape (Size 59, 59) (Shape Rounded) (Layer Bottom)
+PadShape (Size 59, 59) (Shape Rounded) (Layer MidLayer)
+EndPad
+Line (Width 6) (Start -106.45280457, 145.82679749) (End -106.45280457, -102.17320251) (Layer Mechanical15) 
+Line (Width 6) (Start -106.45280457, -102.17320251) (End 600.54719543, -102.17320251) (Layer Mechanical15) 
+Line (Width 6) (Start 600.54719543, -102.17320251) (End 600.54719543, 145.82679749) (Layer Mechanical15) 
+Line (Width 6) (Start 600.54719543, 145.82679749) (End -106.45280457, 145.82679749) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-106.45280457, 145.82679749)
+Point (-106.45280457, -102.17320251)
+Point (600.54719543, -102.17320251)
+Point (600.54719543, 145.82679749)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (715.54719543, 260.82681274)
+Point (715.54719543, -217.17320251)
+Point (-221.45280457, -217.17320251)
+Point (-221.45280457, 260.82681274)
+EndPolygon
+Line (Width 6) (Start -101.45280457, -97.17320251) (End 595.54719543, -97.17320251) (Layer TopOverlay) 
+Line (Width 6) (Start 595.54719543, -97.17320251) (End 595.54719543, 140.82679749) (Layer TopOverlay) 
+Line (Width 6) (Start 595.54719543, 140.82679749) (End -101.45280457, 140.82679749) (Layer TopOverlay) 
+Line (Width 6) (Start -101.45280457, 140.82679749) (End -101.45280457, -97.17320251) (Layer TopOverlay) 
+Arc (Width 20) (Radius 15) (Location -171.45280457, 0) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -96.45280457, -92.17320251) (End 590.54719543, -92.17320251) (Layer Mechanical13) 
+Line (Width 1) (Start 590.54719543, -92.17320251) (End 590.54719543, 135.82679749) (Layer Mechanical13) 
+Line (Width 1) (Start 590.54719543, 135.82679749) (End -96.45280457, 135.82679749) (Layer Mechanical13) 
+Line (Width 1) (Start -96.45280457, 135.82679749) (End -96.45280457, -92.17320251) (Layer Mechanical13) 
+Arc (Width 20) (Radius 15) (Location 0, -75) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Arc (Width 20) (Radius 15) (Location -171.45280457, 0) (StartAngle 0) (EndAngle 360) (Layer BottomOverlay) 
+Step (Name CONN_B6B-XH-A(LF)(SN)_JST.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "B6B-XH-A(LF)(SN)") (PartCount 1) (DesPrefix "J?")
+Pin (Location 200, 0) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "1") (Name Hidden "1") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 200, -100) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "2") (Name Hidden "2") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 200, -200) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "3") (Name Hidden "3") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 200, -300) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "4") (Name Hidden "4") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location 200, -400) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "5") (Name Hidden "5") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Pin (Location 200, -500) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "6") (Name Hidden "6") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 1)
+Line (Width 5) (Start 400, 0) (End 200, 0) (Part 1)
+Line (Width 5) (Start 400, -100) (End 200, -100) (Part 1)
+Line (Width 5) (Start 400, -200) (End 200, -200) (Part 1)
+Line (Width 5) (Start 400, -300) (End 200, -300) (Part 1)
+Line (Width 5) (Start 400, -400) (End 200, -400) (Part 1)
+Line (Width 5) (Start 400, -500) (End 200, -500) (Part 1)
+Line (Width 5) (Start 400, 0) (End 350, 33.3333) (Part 1)
+Line (Width 5) (Start 400, -100) (End 350, -66.6667) (Part 1)
+Line (Width 5) (Start 400, -200) (End 350, -166.6667) (Part 1)
+Line (Width 5) (Start 400, -300) (End 350, -266.6667) (Part 1)
+Line (Width 5) (Start 400, -400) (End 350, -366.6667) (Part 1)
+Line (Width 5) (Start 400, -500) (End 350, -466.6667) (Part 1)
+Line (Width 5) (Start 400, 0) (End 350, -33.3333) (Part 1)
+Line (Width 5) (Start 400, -100) (End 350, -133.3333) (Part 1)
+Line (Width 5) (Start 400, -200) (End 350, -233.3333) (Part 1)
+Line (Width 5) (Start 400, -300) (End 350, -333.3333) (Part 1)
+Line (Width 5) (Start 400, -400) (End 350, -433.3333) (Part 1)
+Line (Width 5) (Start 400, -500) (End 350, -533.3333) (Part 1)
+Rectangle (Width 5) (Start 200, -600) (End 500, 100) (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2022 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "JST") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "B6B-XH-A(LF)(SN)") (Part 1)
+Parameter (Name "Digi-Key_Part_Number_1") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "455-2271-ND") (Part 1)
+Parameter (Name "RefDes") (Location 350, 250) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 400, -200) (Height 82) (Rotation 0) (Justification Center) (Value "DEV") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Comment (Value "B6B-XH-A(LF)(SN)") (Part 1)
+Footprint (Name "CONN_B6B-XH-A(LF)(SN)_JST")
+EndComponent
+EndComponents
