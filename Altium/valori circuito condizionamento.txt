@@ -1,0 +1,4 @@
+Rg resistenza INA118P [kHom]:	33.92
+Filtro passa basso:
+	Condensatore [uF]:	4.719
+	Resistenza [kHom]:	3.288
