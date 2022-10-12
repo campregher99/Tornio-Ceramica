@@ -1,3 +1,5 @@
+#include <Queue.h>
+
 #include "Function.h"
 #include "Config.h"
 
@@ -13,9 +15,16 @@ void setup() {
   ledcAttachPin(PIN_PWM, CHANNEL_PWM);
 
   output(0);
+  wait_serial();
+  Serial.println("input,output");
 }
 float ref=0;
+Queue input(10);
 void loop() {
+  input.push(analogRead(4));
+  Serial.print(input.mean());
+  Serial.print(",");
+  Serial.println(ref);
   if (Serial.available())
   {
     ref = Serial.readStringUntil(ENDER).toFloat();
@@ -23,7 +32,6 @@ void loop() {
     if(ref>=0&&ref<=100)
     {
       output(ref);
-      Serial.println(ref);
     }
       
       
@@ -33,7 +41,6 @@ void loop() {
 
 void output(float _output)
 {
-  float out=_output;
 #ifdef MONITOR
   static bool is_first = true;
   if (is_first)
